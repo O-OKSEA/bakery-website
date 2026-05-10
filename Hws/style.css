@@ -1,0 +1,113 @@
+:root {
+    --bg-yellow: #FFD54F;
+    --card-bg: #FFF9F1;
+    --accent: #FF7E67;
+    --text-main: #4A1D1D;
+    --text-muted: #8C7A7A;
+}
+
+body {
+    background-color: var(--bg-yellow);
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.card {
+    background-color: var(--card-bg);
+    width: 300px;
+    border-radius: 4px; /* Slightly more square look */
+    box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+/* Image Section */
+.image-section {
+    padding: 30px 25px 15px 25px;
+}
+
+.inner-border {
+    border: 1px solid #E8DFCC;
+    border-radius: 15px;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-border img {
+    max-width: 80%;
+    filter: drop-shadow(0 5px 10px rgba(0,0,0,0.1));
+}
+
+/* Text Section */
+.info-section {
+    padding: 0 25px 25px 25px;
+    color: var(--text-main);
+}
+
+.product-name {
+    margin: 0;
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.product-desc {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    margin: 12px 0 20px 0;
+    line-height: 1.5;
+}
+
+/* Price & Rating */
+.meta-row {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.price {
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+
+.rating-group {
+    flex: 1;
+}
+
+.stars {
+    font-size: 16px;
+    border-bottom: 1px solid black;
+    display: inline-block;
+    letter-spacing: 2px;
+}
+
+.promo-text {
+    font-size: 0.65rem;
+    font-weight: 700;
+    margin-top: 5px;
+    text-transform: uppercase;
+}
+
+/* Button */
+.cart-btn {
+    background-color: var(--accent);
+    color: white;
+    border: none;
+    padding: 18px;
+    font-weight: 700;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.cart-btn:hover {
+    filter: brightness(1.1);
+}

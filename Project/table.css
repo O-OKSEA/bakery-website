@@ -1,0 +1,43 @@
+#first{
+    #table1{
+        width:100%;
+        border-collapse:collapse;
+        th{
+            background-color:rgb(6, 174, 112);
+            color:White;
+        }
+        tr{
+            border-bottom:1px solid grey;
+            &:hover{
+                background-color:lightgrey;
+                color:rgb(26, 112, 80);
+            }
+        }
+    }
+}
+#second{
+    #table2{
+        width:100%;
+        th{
+            background-color:rgb(39, 37, 37);
+            color:white;
+        }
+        tr:nth-child(even){
+            background-color:lightgrey;
+            &:hover{
+                background-color: grey;
+            }
+        }
+        tr:nth-child(odd){
+            &:hover{
+                background-color:grey;
+            }
+        }
+    }
+}
+#second{
+    table,td,th{
+        border:1px solid lightgrey;
+        border-collapse:collapse;
+    }
+}

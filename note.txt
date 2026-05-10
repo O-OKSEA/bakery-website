@@ -1,0 +1,5 @@
+Self Note
+Color Combos:
+color:-whitesmoke
+background-color:-burlywood
+https://www.w3schools.com/html/html_responsive.asp

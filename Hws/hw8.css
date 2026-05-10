@@ -1,0 +1,23 @@
+div{
+    border-style:double;
+    border-color:black;
+    border-width:10px;
+    width:50%;
+    margin:auto;
+    padding:20px;
+}
+p{
+    border-bottom:1px solid black;
+    text-align:center;
+}
+img{
+    width:100%;
+}
+button{
+    background-color:Gray;
+    width:100%;
+    &:hover{
+        background-color:darkgray;
+        color:black;
+    }
+}

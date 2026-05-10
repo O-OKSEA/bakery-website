@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="form.css">
+<body>
+    <div>
+        <h1>Survey Form</h1>
+        <form>
+            <label for="fname">First Name:</label>
+            <input type="text" name="fname" placeholder="Your First Name">
+            <label for="lname">Last Name</label>
+            <input type="text" name="lname" placeholder="Your Last Name">
+            <br>
+            <br>
+            <label for="address">Address:</label>
+            <input type="text" name="address" placeholder="Where You Live">
+            <br>
+            <br>
+            <label>Gender:</label>
+            <input type="radio" id="male" name="gender" value="m">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="f">
+            <label for="female">Female</label>
+            <input type="radio" id="other" name="gender" value="o">
+            <label for="other">Other</label>
+            <br>
+            <br>
+            <label for="age">Age:</label>
+            <input type="number" name="age" placeholder="Your Age">
+            <br>
+            <br>
+            <label for="feedback">Feedback:</label>
+            <br>
+            <textarea id="feedback" name="feedback" rows="5" cols="50" maxlength="5000px"></textarea>
+            <br>
+            <input type="submit" id="sub" name="sub">
+        </form>
+    </div>
+</body>
+</html>
